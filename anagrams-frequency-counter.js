@@ -8,11 +8,11 @@ function isAnagram(string1, string2) {
     let lowercasedString2 = string2.toLowerCase();
 
     let lookup = {}
-    for (firstValue of lowercasedString1) {
+    for (const firstValue of lowercasedString1) {
         lookup[firstValue] = (lookup[firstValue] || 0) + 1
     }
 
-    for (secondValue of lowercasedString2) {
+    for (const secondValue of lowercasedString2) {
         if (! lookup[secondValue]) {
             return false
         }
