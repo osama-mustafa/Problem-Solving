@@ -1,3 +1,11 @@
+
+/***
+    problem link from LeetCode
+    https://leetcode.com/problems/valid-anagram/
+    
+***/
+
+
 function isAnagram(string1, string2) {
 
     if (string1.length !== string2.length) {
