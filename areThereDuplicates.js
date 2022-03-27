@@ -4,12 +4,13 @@
     which accepts a variable number of argumants and checks whether
     there are any duplicates among the arguments passed in.
 
-    ====================
-    Time Complexity: O(n)
-    Space Complexity: O(n)
-    ======================
 ***/
 
+/***
+=================================
+Using Frequency Counter Technique
+=================================
+***/
 
 function areThereDuplicates(...args) {
 
